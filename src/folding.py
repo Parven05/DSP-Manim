@@ -4,8 +4,7 @@ VALS = [2, 3, 2, 1, 3]
 ORIGIN_IDX = 2                                        # index of n = 0 in the list
 X = {i - ORIGIN_IDX: v for i, v in enumerate(VALS)}   # {-2:2, -1:3, 0:2, 1:1, 2:3}
 
-# column layout for the sequence rows (right side of the screen)
-COL_X0, COL_DX = 3.3, 0.8
+COL_X0, COL_DX = 3.0, 0.8
 
 def col_pos(i, y):
     return np.array([COL_X0 + COL_DX * i, y, 0])
@@ -21,7 +20,6 @@ def make_axes(center):
     n_label = Text("n", font_size=20).next_to(ax.x_axis.get_end(), RIGHT, buff=0.1)
     return ax, VGroup(labels, n_label)
 
-
 def make_stems(ax, sig, color):
     stems = VGroup()
     for n in sorted(sig):
@@ -32,7 +30,6 @@ def make_stems(ax, sig, color):
         val.set_stroke(BLACK, width=5, background=True)
         stems.add(VGroup(line, dot, val))
     return stems
-
 
 def seq_frame(label, y):
     """'x[n] = {   }' frame; the numbers are placed on the columns separately."""
@@ -51,7 +48,6 @@ def index_labels(y):
               .move_to(col_pos(i, y - 0.45)))
     return g
 
-
 def number_row(vals, y):
     g = VGroup()
     for i, v in enumerate(vals):
@@ -59,7 +55,6 @@ def number_row(vals, y):
         g.add(Text(str(v), font_size=26, color=ORANGE if n == 0 else WHITE)
               .move_to(col_pos(i, y)))
     return g
-
 
 class Folding(Scene):
     def construct(self):
