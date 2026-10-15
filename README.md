@@ -13,7 +13,7 @@ Manim animations of basic discrete-time signal operations
 
 ## Folding
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/c167c997-d90a-40da-acfb-354b5e235c93" controls></video>
+video src="https://github.com/user-attachments/assets/96142b4d-b9be-41c8-9d41-0708664eeda9" controls></video>
 </div>
 
 ## Folding & Shift Left
