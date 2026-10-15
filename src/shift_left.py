@@ -16,7 +16,6 @@ def make_axes(center):
     n_label = Text("n", font_size=20).next_to(ax.x_axis.get_end(), RIGHT, buff=0.1)
     return ax, VGroup(labels, n_label)
 
-
 def make_stems(ax, sig, color):
     stems = VGroup()
     for n in sorted(sig):
@@ -27,7 +26,6 @@ def make_stems(ax, sig, color):
         val.set_stroke(BLACK, width=5, background=True)
         stems.add(VGroup(line, dot, val))
     return stems
-
 
 def seq_row(label, vals):
     """Text like  x[n] = { 2, 3, 2, 1, 3 }"""
@@ -48,7 +46,6 @@ def origin_marker(items, idx):
                 color=ORANGE, stroke_width=4)
     txt = Text("n=0", font_size=18, color=ORANGE).next_to(arr, DOWN, buff=0.05)
     return VGroup(arr, txt)
-
 
 class ShiftLeft(Scene):
     def construct(self):

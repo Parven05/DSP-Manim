@@ -7,7 +7,6 @@ K = 2
 
 COL_X0, COL_DX = 3.3, 0.8
 
-
 def col_pos(i, y):
     return np.array([COL_X0 + COL_DX * i, y, 0])
 
