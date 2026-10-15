@@ -18,21 +18,21 @@ Manim animations of basic discrete-time signal operations
 
 ## Folding & Shift Left
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/3f42548f-1fc9-49e3-a9e2-260cee89bb06" controls></video>
+  <video src="https://github.com/user-attachments/assets/b9ee9b4d-441a-48ba-b653-be6b9c4ddaa2" controls></video>
 </div>
 
 ## Folding & Shift Right
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/4e67b38d-a51e-4e00-82fa-a3a11d0d182b" controls></video>
+  <video src="https://github.com/user-attachments/assets/e249969e-4797-47f0-b572-7d8782a6f14b" controls></video>
 </div>
 
 ## Addition & Subtraction
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/87b64a19-0ed1-411d-8517-350134ff8ed5" controls></video>
+  <video src="https://github.com/user-attachments/assets/214f2afd-4a32-41e0-9122-33d901c5af8f" controls></video>
 </div>
 
 ## Multiplication & Division
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/cfb642d2-274e-411c-b249-aba95981d259" controls></video>
+  <video src="https://github.com/user-attachments/assets/71fd8023-025c-4f02-88f1-570b9ef85ab2" controls></video>
 </div>
 
