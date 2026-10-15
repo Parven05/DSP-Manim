@@ -6,7 +6,7 @@ V2 = [1, 2, 3, 2, 1]
 X1 = {i - ORIGIN_IDX: v for i, v in enumerate(V1)}
 X2 = {i - ORIGIN_IDX: v for i, v in enumerate(V2)}
 
-COL_X0, COL_DX = 3.3, 0.8
+COL_X0, COL_DX = 2.6, 0.8
 
 def col_pos(i, y):
     return np.array([COL_X0 + COL_DX * i, y, 0])

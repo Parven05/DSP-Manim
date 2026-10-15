@@ -6,7 +6,7 @@ V2 = [1, 2, 3, 2, 1]
 X1 = {i - ORIGIN_IDX: v for i, v in enumerate(V1)}
 X2 = {i - ORIGIN_IDX: v for i, v in enumerate(V2)}
 
-COL_X0, COL_DX = 3.3, 0.8
+COL_X0, COL_DX = 2.6, 0.8
 
 def fmt(v):
     """2.0 -> '2', 1.5 -> '1.5', 0.6667 -> '0.67'"""

@@ -4,7 +4,7 @@ VALS = [2, 3, 2, 1, 3]
 ORIGIN_IDX = 2                                        # index of n = 0 in the list
 X = {i - ORIGIN_IDX: v for i, v in enumerate(VALS)}   # {-2:2, -1:3, 0:2, 1:1, 2:3}
 
-COL_X0, COL_DX = 3.0, 0.8
+COL_X0, COL_DX = 2.6, 0.8
 
 def col_pos(i, y):
     return np.array([COL_X0 + COL_DX * i, y, 0])
